@@ -400,9 +400,8 @@ header.sticky{
     }
     .container{
         padding: 70px 3%;
-        transition:2s;
+        transition: .2s;
     }
-    
     .contact{
         padding: 68px 3%;
         transition: .2s;
@@ -412,36 +411,37 @@ header.sticky{
     :root {
         --big-font:3.2rem;
         --h2-font: 2rem;
-        --p-font: 1.1rem;
+        --p-font: 1rem;
+        transition: .1s;
     }
     .home{
         height: 84vh;
     }
 }
 @media (max-width: 1025px){
-    #menu-icon {
+    #menu-icon{
         display: block;
     }
     .navbar{
         position: absolute;
         top: 100%;
         right: -100%;
-        width:300px;
+        width: 170px;
         height: 110vh;
-        background: var(--main-color);
+        border-radius: 15px 0;
+        background: #aad7f1;
         display: fLex;
         flex-direction: coLumn;
         align-items: center;
         padding: 170px 30px;
-        transition: all 40s ease;
+        transition: all .40s ease;
         }
         .navbar a{
             display: block;
-            margin:1.3rem 0;
+            margin: 1.3rem 0;
             color: var(--bg-color);
         }
         .navbar a:hover{
-            color: var(--bg-color );
             transform: translateY(-5px);
         }
         .navbar.open{
@@ -456,7 +456,7 @@ header.sticky{
         gap: 1rem;
     }
     .home-text{
-        padding-top: 2;
+        padding-top: 20px;
     }
     .home-img{
         text-align: center;
