@@ -9,5 +9,5 @@ let navbar = document.querySelector('.navbar');
 
 menu.onclick = () => {
     menu.classList.toggle('bx-x');
-    naavber.classList.toggle('open');
+    navbar.classList.toggle('open');
 }
